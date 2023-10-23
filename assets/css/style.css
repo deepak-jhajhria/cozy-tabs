@@ -1,0 +1,67 @@
+@import url(./root.css);
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cherry+Bomb+One&display=swap");
+
+.phaseCard1 {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  max-width: 637px;
+  height: 293px;
+}
+.phaseCard2 {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  max-width: 484px;
+  height: 293px;
+}
+.cardContent {
+  padding: 20px 20px;
+}
+.phaseCard {
+  border-radius: 19px;
+  border: 7px solid #fff;
+  background: #5ba72b;
+}
+.phaseContent {
+  display: inline-flex;
+  padding: 75px 65px;
+  justify-content: center;
+  align-items: center;
+  gap: 95px;
+}
+.tabs div div span svg path {
+  opacity: 0.3;
+  transition: 0.3s;
+}
+.tabs:hover div div span svg path {
+  opacity: 1;
+}
+.tabs {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.tabs:hover {
+  background: var(--dark-green);
+}
+.vector1 {
+  top: 4%;
+  left: -7%;
+}
+.vector2 {
+  top: 4%;
+  right: -7%;
+}
+.treehill {
+  bottom: 0%;
+  left: -7%;
+  z-index: 1;
+}
+.tree {
+  bottom: 6%;
+  left: 0%;
+  z-index: 0;
+}
+.topicsColor{
+    color: rgba(255, 255, 255, 0.80);
+}

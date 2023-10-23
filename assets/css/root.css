@@ -1,0 +1,62 @@
+:root{
+    --green:#9ACC44;
+    --white:#fff;
+    --grey-green:#A4D156;
+    --dark-green:#5BA72B;
+    --fs-lg:18px;
+    --fs-2xl:24px;
+    --fs-xl:28px;
+    --fs-5xl:50px;
+    --fs-6xl:60px;
+    --fs-7xl:70px;
+    --ff-one: 'Cherry Bomb One';
+    --ff-bal:'Balsamiq Sans';
+}
+.bs-green{
+    color: var(--green);
+}
+.bg-green{
+    background: var(--green);
+}
+.bs-white{
+    color: var(--white);
+}
+.bg-white{
+    background: var(--white);
+}
+.bs-greyGreen{
+    color: var(--grey-green);
+}
+.bs-darkGreen{
+    color: var(--dark-green);
+}
+.bg-greyGreen{
+    background: var(--grey-green);
+}
+.bg-darkGreen{
+    background: var(--dark-green);
+}
+.fs-lg{
+    font-size: var(--fs-lg);
+}
+.fs-xl{
+    font-size: var(--fs-xl);
+}
+.fs-2xl{
+    font-size: var(--fs-2xl);
+}
+.fs-5xl{
+    font-size: var(--fs-5xl);
+}
+.fs-6xl{
+    font-size: var(--fs-6xl);
+}
+.fs-7xl{
+    font-size: var(--fs-7xl);
+}
+.ff-one{
+    font-family: var(--ff-one);
+}
+.ff-bal{
+    font-family: var(--ff-bal);
+}
