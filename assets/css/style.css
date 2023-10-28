@@ -25,7 +25,7 @@
 }
 .phaseContent {
   display: inline-flex;
-  padding: 75px 65px;
+  padding: 45px 10px;
   justify-content: center;
   align-items: center;
   gap: 95px;
@@ -66,6 +66,15 @@
     color: rgba(255, 255, 255, 0.80);
 }
 .closeBtn{
-    top: 5%;
-    right: 2%;
+  top: 1%;
+  right: 4%;
+}
+@media (min-width:768px) {
+  .phaseContent {
+    padding: 75px 65px;
+  }
+  .closeBtn{
+      top: 5%;
+      right: 2%;
+  }
 }
