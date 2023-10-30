@@ -68,6 +68,7 @@
 .closeBtn{
   top: 1%;
   right: 4%;
+  cursor: pointer;
 }
 @media (min-width:768px) {
   .phaseContent {
